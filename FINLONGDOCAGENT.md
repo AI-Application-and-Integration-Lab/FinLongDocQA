@@ -5,8 +5,8 @@
 FinLongDocAgent is the baseline method introduced alongside the FinLongDocQA benchmark.
 It addresses two bottlenecks in long financial document QA:
 
-1. **Context rot** — annual reports exceed 129k tokens, making relevant table location unreliable with full-context approaches.
-2. **Multi-step numerical errors** — even with the right evidence, LLMs make arithmetic mistakes in cross-table reasoning.
+1. **Context rot**: annual reports exceed 129k tokens, making relevant table location unreliable with full-context approaches.
+2. **Multi-step numerical errors**: even with the right evidence, LLMs make arithmetic mistakes in cross-table reasoning.
 
 FinLongDocAgent tackles both through iterative retrieval and verification across multiple rounds.
 
