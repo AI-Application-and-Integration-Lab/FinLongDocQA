@@ -69,7 +69,7 @@ Each record in `dataset_qa.jsonl` contains:
 from datasets import load_dataset
 
 ds = load_dataset("Amian/FinLongDocQA")
-print(ds["train"][0])
+print(ds["test"][0])
 ```
 
 ## License
