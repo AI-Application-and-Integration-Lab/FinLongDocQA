@@ -72,6 +72,14 @@ ds = load_dataset("Amian/FinLongDocQA")
 print(ds["test"][0])
 ```
 
+## FinLongDocAgent
+
+We provide **FinLongDocAgent**, a Multi-Agent Multi-Round RAG baseline for this benchmark.
+It decomposes each question into iterative retrieval and reasoning rounds:
+an **ExpansionAgent** generates domain-aware queries, a **SolvingAgent** computes intermediate results from retrieved pages, and an **EvaluationAgent** verifies the answer and feeds missing components back for the next round.
+
+See [FINLONGDOCAGENT.md](FINLONGDOCAGENT.md) for setup and usage instructions.
+
 ## License
 
 This dataset is released under the **AI²Lab Source Code License (National Taiwan University)**.
