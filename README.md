@@ -6,7 +6,7 @@
 
 ## Dataset Description
 
-![An example QA instance from FinLongDocQA](assets/example.png)
+![An example QA instance from FinLongDocQA](assets/example.jpg)
 
 *An example QA instance from FinLongDocQA. The figure shows only the relevant tables and text for presentation; in practice, the model must retrieve them from the full annual report before computing the answer.*
 
