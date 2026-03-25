@@ -1,26 +1,3 @@
----
-license: other
-task_categories:
-  - question-answering
-language:
-  - en
-tags:
-  - financial
-  - numerical-reasoning
-  - long-document
-  - table-qa
-  - multi-table
-  - annual-reports
-pretty_name: FinLongDocQA
-size_categories:
-  - 1K<n<10K
-configs:
-  - config_name: default
-    data_files:
-      - split: train
-        path: dataset_qa.jsonl
----
-
 # FinLongDocQA
 
 **Numerical Reasoning across Multiple Tables for Document-Level Financial Question Answering**
