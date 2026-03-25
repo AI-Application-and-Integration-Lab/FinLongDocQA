@@ -4,8 +4,6 @@
 
 [![Dataset on HuggingFace](https://img.shields.io/badge/HuggingFace-FinLongDocQA-yellow?logo=huggingface)](https://huggingface.co/datasets/Amian/FinLongDocQA)
 
-Dataset: [https://huggingface.co/datasets/Amian/FinLongDocQA](https://huggingface.co/datasets/Amian/FinLongDocQA)
-
 ## Dataset Description
 
 ![An example QA instance from FinLongDocQA](assets/example.png)
