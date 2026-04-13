@@ -1,6 +1,6 @@
 # FinLongDocQA
 
-**Numerical Reasoning across Multiple Tables for Document-Level Financial Question Answering**
+**Document-Level Numerical Reasoning across Single and Multiple Tables in Financial Reports**
 
 [![Dataset on HuggingFace](https://img.shields.io/badge/HuggingFace-FinLongDocQA-yellow?logo=huggingface)](https://huggingface.co/datasets/Amian/FinLongDocQA)
 [![Paper on ArXiv](https://img.shields.io/badge/arXiv-2604.03664-b31b1b.svg)](https://arxiv.org/abs/2604.03664)
@@ -87,7 +87,7 @@ If you find this dataset or the method helpful, please cite our paper:
 
 ```
 @article{wang2026finlongdocqa,
-  title={Numerical Reasoning across Multiple Tables for Document-Level Financial Question Answering},
+  title={Document-Level Numerical Reasoning across Single and Multiple Tables in Financial Reports},
   author={Wang, Yi-Cheng and Wang, Wei-An and Chen, Chu-Song},
   journal={arXiv preprint arXiv:2604.03664},
   year={2026}
