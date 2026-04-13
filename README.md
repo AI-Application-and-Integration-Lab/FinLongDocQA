@@ -3,6 +3,7 @@
 **Numerical Reasoning across Multiple Tables for Document-Level Financial Question Answering**
 
 [![Dataset on HuggingFace](https://img.shields.io/badge/HuggingFace-FinLongDocQA-yellow?logo=huggingface)](https://huggingface.co/datasets/Amian/FinLongDocQA)
+[![Paper on ArXiv](https://img.shields.io/badge/arXiv-2604.03664-b31b1b.svg)](https://arxiv.org/abs/2604.03664)
 
 ## Dataset Description
 
@@ -79,6 +80,19 @@ It decomposes each question into iterative retrieval and reasoning rounds:
 an **ExpansionAgent** generates domain-aware queries, a **SolvingAgent** computes intermediate results from retrieved pages, and an **EvaluationAgent** verifies the answer and feeds missing components back for the next round.
 
 See [FINLONGDOCAGENT.md](FINLONGDOCAGENT.md) for setup and usage instructions.
+
+## Citation
+
+If you find this dataset or the method helpful, please cite our paper:
+
+```
+@article{wang2026finlongdocqa,
+  title={Numerical Reasoning across Multiple Tables for Document-Level Financial Question Answering},
+  author={Wang, Yi-Cheng and Wang, Wei-An and Chen, Chu-Song},
+  journal={arXiv preprint arXiv:2604.03664},
+  year={2026}
+}
+```
 
 ## License
 
