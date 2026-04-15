@@ -15,6 +15,8 @@ FinLongDocQA is a benchmark for financial numerical reasoning over long, structu
 
 Financial annual reports commonly exceed 129k tokens, making it challenging for LLMs to (1) locate the relevant tables (*context rot*) and (2) perform accurate multi-step arithmetic once the evidence is found. FinLongDocQA is designed to stress-test both capabilities.
 
+> Annual reports used in this dataset can be downloaded [here](https://drive.google.com/file/d/1MySo4fFBEeht7lVasDCVrvHWki8Yvkkk/view?usp=drive_link).
+
 ### Dataset Summary
 
 | Field | Value |
