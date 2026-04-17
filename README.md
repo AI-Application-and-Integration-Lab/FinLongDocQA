@@ -87,7 +87,7 @@ See [FINLONGDOCAGENT.md](FINLONGDOCAGENT.md) for setup and usage instructions.
 
 If you find this dataset or the method helpful, please cite our paper:
 
-```
+```bibtex
 @article{wang2026finlongdocqa,
   title={Document-Level Numerical Reasoning across Single and Multiple Tables in Financial Reports},
   author={Wang, Yi-Cheng and Wang, Wei-An and Chen, Chu-Song},
