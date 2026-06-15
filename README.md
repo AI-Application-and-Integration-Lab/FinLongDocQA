@@ -5,6 +5,14 @@
 [![Dataset on HuggingFace](https://img.shields.io/badge/HuggingFace-FinLongDocQA-yellow?logo=huggingface)](https://huggingface.co/datasets/Amian/FinLongDocQA)
 [![Paper on ArXiv](https://img.shields.io/badge/arXiv-2604.03664-b31b1b.svg)](https://arxiv.org/abs/2604.03664)
 
+## Update: FinLongDocQA v1.1
+
+FinLongDocQA has been updated to **v1.1**. This release corrects misaligned gold evidence-page annotations identified in the initial release.
+
+The dataset schema and example set remain unchanged: v1.1 contains the same **7,527 examples** as the original release. The update revises the `page_numbers` field and, where the corrected evidence affected the reasoning or computation, also updates the corresponding `thoughts`, `python_code`, and `answer` fields.
+
+We recommend using **FinLongDocQA v1.1** for all future experiments and evidence-grounded evaluation. The initial release is superseded by this version.
+
 ## Dataset Description
 
 ![An example QA instance from FinLongDocQA](assets/example.jpg)
